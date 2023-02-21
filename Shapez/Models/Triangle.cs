@@ -17,6 +17,31 @@ namespace Shapez.Models
     {
       return _side1;
     }
+    
+    public int GetSide2()
+    {
+      return _side2;
+    }
+    
+    public int GetSide3()
+    {
+      return _side3;
+    }
+
+    public void SetSide1(int newLength)
+    {
+      _side1 = newLength;
+    }
+
+    public void SetSide2(int newLength)
+    {
+      _side2 = newLength;
+    }
+
+    public void SetSide3(int newLength)
+    {
+      _side3 = newLength;
+    }
 
     public string CheckType()
     {
